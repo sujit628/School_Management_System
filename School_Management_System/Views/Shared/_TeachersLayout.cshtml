@@ -1,0 +1,144 @@
+﻿
+@{
+    Layout = null;
+}
+
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @*<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />*@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    @*header*@
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/Teacher/TeachingPanel">TEACHING PANEL</a>
+
+            <button class="navbar-toggler d-md-none d-lg-none d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="list-group list-group-flush my-2 d-md-none d-lg-none d-xl-none" id="pageLinksNavbar">
+
+
+
+
+                    <li class="list-group-item bg-info">
+                        <a href="/Teacher/TeachingPanel" class="text-light text-decoration-none d-block">Dsashboard</a>
+                    </li>
+
+                    <li class="list-group-item bg-info">
+                        <a data-bs-toggle="collapse" href="#collapseStudents" role="button" aria-expanded="false" aria-controls="collapseStudents" class="text-light text-decoration-none d-block">Students</a>
+                        <div class="collapse" id="collapseStudents">
+                            <ul class="list-group list-group-flush rounded-2 border my-2">
+                                <li class="list-group-item bg-dark">
+                                    <a href="/Student/StudentPageView" class="text-light text-decoration-none d-block">Student Manage</a>
+                                </li>
+                                <li class="list-group-item bg-dark ">
+                                    <a href="/Student/StudentAddEdit" class="text-nowrap text-light text-decoration-none d-block">Student Add/Edit</a>
+                                </li>
+                                <li class="list-group-item bg-dark">
+                                    <a href="/Student/StudentView" class="text-light text-decoration-none d-block">Student View</a>
+                                </li>
+
+                                <li class="list-group-item bg-dark">
+                                    <a href="/Student/StudentAdmissionPageView" class="text-nowrap text-light text-decoration-none d-block">Student Admission</a>
+                                </li>
+                                <li class="list-group-item bg-dark">
+                                    <a href="/Student/StudentAdmissionAddEdit" class="text-nowrap text-light text-decoration-none d-block">Admission Add</a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item bg-info">
+                        <a data-bs-toggle="collapse" href="#collapseTeachers" role="button" aria-expanded="false" aria-controls="collapseTeachers" class="text-light text-decoration-none d-block">Teachers</a>
+                        <div class="collapse" id="collapseTeachers">
+                            <ul class="list-group list-group-flush rounded-2 border my-2">
+                                <li class="list-group-item bg-dark">
+                                    <a href="/Teacher/TeachersViewPage" class="text-light text-decoration-none d-block">Manage</a>
+                                </li>
+                                <li class="list-group-item bg-dark">
+                                    <a href="/Teacher/AddEditTeacherDetails" class="text-light text-decoration-none d-block">Add/Edit</a>
+                                </li>
+                                <li class="list-group-item bg-dark">
+                                    <a href="/Teacher/TeacherDetailsCardView" class="text-light text-decoration-none d-block">View</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item bg-info">
+                        <a data-bs-toggle="collapse" href="#collapseClass" role="button" aria-expanded="false" aria-controls="collapseClass" class="text-light text-decoration-none d-block">Student Class</a>
+                        <div class="collapse" id="collapseClass">
+                            <ul class="list-group list-group-flush rounded-2 border my-2">
+                                <li class="list-group-item bg-dark">
+                                    <a href="/ClassDetails/Index" class="text-light text-decoration-none d-block">Manage</a>
+                                </li>
+                                <li class="list-group-item bg-dark">
+                                    <a href="/ClassDetails/AddOrEdit" class="text-light text-decoration-none d-block">Add</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+
+
+                    <li class="list-group-item bg-info rounded-3 border-0">
+                        <a data-bs-toggle="collapse" href="#collapseProfile" role="button" aria-expanded="false" aria-controls="collapseProfile" class="text-light text-decoration-none d-block">Profile</a>
+                        <div class="collapse" id="collapseProfile">
+                            <ul class="list-group list-group-flush rounded-2 border my-2">
+                                <li class="list-group-item bg-dark">
+                                    <a href="/Teacher/TeacherProfile" class="text-light text-decoration-none d-block">View</a>
+                                </li>
+                                <li class="list-group-item bg-dark">
+                                    <a href="/Home/LogOut" class="text-light text-decoration-none d-block">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <div class="container-fluid body-content">
+        <div class="row">
+
+            @*sidebar*@
+            <div class="col-md-2 d-none d-md-block border-end bg-info" style="min-height:800px;">
+                <ul class="list-group list-group-flush my-2" id="pageLinksSidebar"></ul>
+            </div>
+
+
+            <div class="col-md-10 py-3">
+                <div style="min-height:800px;">
+                    @RenderBody()
+
+                </div>
+
+            </div>
+
+           
+        </div>
+    </div>
+
+
+
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script>document.getElementById('pageLinksSidebar').innerHTML = document.getElementById('pageLinksNavbar').innerHTML;</script>
+</body>
+</html>

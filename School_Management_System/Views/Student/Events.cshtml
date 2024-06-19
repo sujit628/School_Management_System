@@ -1,0 +1,180 @@
+﻿@{
+    ViewBag.Title = "Events";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    #carouselExampleSlidesOnly .carousel-caption {
+        position: absolute;
+        top: 350px;
+        right: 750px;
+    }
+
+    .card:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+</style>
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/Content/ready-for-more-banner.jpg" class="d-block w-100" height="430px;" alt="..." />
+            <div class="carousel-caption d-none d-md-block my-auto" style="min-height:500px; ">
+                <h2 class="fw-bold fst-italic text-danger">Rambhola High School</h2>
+                <h2 class="fw-bold text-dark">Student <span class="text-primary">Events</span></h2>
+                <p class="btn btn-primary">Join Us On FaceBook</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container w-75">
+    <h3 class="text-center mt-5 mb-5 fst-italic">From live music and free food, to day trips and social sport – this semester is going to be jam-packed with events. Keep an eye on this page to stay up-to-date with all that's coming up.</h3>
+</div>
+
+
+
+<div class="container mt-5 border rounded shadow bg-body-tertiary">
+    <div class="row">
+        <div class="col-7 my-auto">
+            <h1 class="text-center">
+                Student <span class="text-primary">Events</span> @DateTime.Now.Year
+            </h1>
+            <div>
+                <p class="text-center">
+                    Welcome to the most exciting event of the year! Join us for a day filled with inspiration, networking, and fun. Don't miss out on this unforgettable experience!
+                    <br /><span class="btn btn-primary mt-1">Register Now</span>
+                </p>
+            </div>
+        </div>
+        <div class="col-5 d-flex justify-content-end">
+            <img src="~/Content/Picture1.jpg" height="500px;" />
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="container mt-5 mb-5">
+    <h1 class="text-center fw-bold">Featured <span class="text-primary">Events</span></h1>
+</div>
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+                <img src="~/Content/Monash-Recharge-Caulfield.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fst-italic text-primary">Monash Recharge @@  </h5>
+                    <span class="text-info">2–4 October, 10am – 4pm</span>
+                    <p class="card-text">Take a break and join us over three days for Monash Recharge. We'll help you de-stress and prepare for your assignments with a series of rejuvenating activities, including a Lego creation station, a colour-in art mural, some console gaming, and free energy-boosting treats!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+                <img src="~/Content/Twelfth-Night.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fst-italic text-primary">Monash Recharge @@  </h5>
+                    <span class="text-info">2–4 October, 10am – 4pm</span>
+                    <p class="card-text">Take a break and join us over three days for Monash Recharge. We'll help you de-stress and prepare for your assignments with a series of rejuvenating activities, including a Lego creation station, a colour-in art mural, some console gaming, and free energy-boosting treats!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+                <img src="~/Content/Monash-Recharge-Clayton.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fst-italic text-primary">Monash Recharge @@  </h5>
+                    <span class="text-info">2–4 October, 10am – 4pm</span>
+                    <p class="card-text">Take a break and join us over three days for Monash Recharge. We'll help you de-stress and prepare for your assignments with a series of rejuvenating activities, including a Lego creation station, a colour-in art mural, some console gaming, and free energy-boosting treats!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h1 class="fw-bold text-center">Activities</h1>
+    <div class="row mt-3">
+        <div class="col-md-4 border">
+            <h3 class="text-primary fst-italic">Schedule of Events</h3><br />
+            <p>Discover a jam-packed day of exciting activities, including inspiring keynotes, engaging workshops, and thought-provoking sessions.</p>
+        </div>
+        <div class="col-md-4 border fst-italic">
+            <h3 class="text-primary"> Performances and Presentations</h3>
+            <p>
+                Be captivated by unforgettable performances and presentations by talented individuals, showcasing their passion and talent.
+            </p>
+        </div>
+        <div class="col-md-4 border fst-italic">
+            <h3 class="text-primary">Networking Opportunities</h3><br />
+            <p>
+                Connect with like-minded students and professionals, expanding your network and nurturing valuable connections.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-5 mb-5">
+    <h1 class="fw-bold text-center">Sponsors</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card" style="width: 35rem;">
+                <img src="~/Content/Picture2.jpg" class="card-img-top" height="300px;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fst-italic text-primary">
+                        List of Event Sponsors
+                    </h5>
+                    <p class="card-text">We are grateful to our generous sponsors who make this event possible. Check out the list of companies and organizations supporting us.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card" style="width: 35rem;">
+                <img src="~/Content/Picture3.jpg" class="card-img-top" height="300px;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fst-italic text-primary">
+                        Sponsorship Opportunities
+                    </h5>
+                    <p class="card-text">
+                        Interested in becoming a sponsor? Explore the unique sponsorship opportunities we offer and elevate your brand during this premier event.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@*<div class="container mt-5 mb-5">
+        <h1 class="fw-bold">Contact Information</h1>
+        <div class="row mt-3">
+            <div class="col-md-4 border">
+                <h3 class="text-primary fst-italic">Email Address</h3><br />
+                                                                      <p>For any inquiries or assistance, reach out to us at [Email Address]. We're here to help!</p>
+            </div>
+            <div class="col-md-4 border fst-italic">
+                <h3 class="text-primary"> Phone Number</h3><br />
+                <p>
+                    Have a question? Give us a call at [Phone Number] and our friendly team will gladly assist you.
+                </p>
+            </div>
+            <div class="col-md-4 border fst-italic">
+                <h3 class="text-primary">Social Media Handles</h3><br />
+            <p>
+                Stay connected with event updates and engage with the community on our social media channels.
+            </p>
+            </div>
+        </div>
+    </div>*@

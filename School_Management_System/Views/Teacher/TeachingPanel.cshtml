@@ -1,0 +1,148 @@
+﻿@{
+    Layout = "~/Views/Shared/_TeachersLayout.cshtml";
+}
+
+<div class="row">
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2">
+        <div class="card bg-primary text-light">
+            <div class="card-body">
+                <h4>Teacher</h4>
+                <p><a style="text-decoration:none;color:white;" href="~/Teacher/TeachersViewPage"> Manage Teacher </a></p>
+            </div>
+            <div class="card-footer">
+                <p>Teacher Available: @ViewBag.TotalTeacher </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2">
+        <div class="card bg-danger text-light">
+            <div class="card-body">
+                <h4>Student</h4>
+                <p><a style="text-decoration:none;color:white;" href="~/Student/StudentPageView"> Manage Student </a></p>
+            </div>
+            <div class="card-footer">
+                <p>Student Available: @ViewBag.TotalStudent </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2">
+        <div class="card bg-info text-dark">
+            <div class="card-body">
+                <h4>Teacher </h4>
+                <p><a style="text-decoration:none;color:black;" href="~/Teacher/TeachersViewPage"> Manage Teacher </a></p>
+            </div>
+            <div class="card-footer">
+                <p>Teacher Available: @ViewBag.TotalTeacher </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2">
+        <div class="card bg-warning text-dark">
+            <div class="card-body">
+                <h4>Student </h4>
+                <p><a style="text-decoration:none;color:black;" href="~/Student/StudentPageView"> Manage Student </a></p>
+            </div>
+            <div class="card-footer">
+                <p>Student Available: @ViewBag.TotalStudent </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row my-3">
+    <div class="col-md-6 border my-1">
+        <div style="width:100%;">
+            <canvas id="myChart1"></canvas>
+        </div>
+    </div>
+    <div class="col-md-3 border my-1">
+        <div style="width:100%;">
+            <canvas id="myChart2"></canvas>
+        </div>
+    </div>
+    <div class="col-md-3 border my-1" style="background-color:#0001;">
+        <div style="width:100%;">
+            <canvas id="myChart3"></canvas>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const ctx1 = document.getElementById('myChart1');
+    const ctx2 = document.getElementById('myChart2');
+    const ctx3 = document.getElementById('myChart3');
+
+    const data1 = {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+            label: '# of Votes',
+            data: [12, 19, 3, 5, 2, 3],
+            borderWidth: 1
+        }]
+    };
+
+    const data2 = {
+        labels: [
+            'Red',
+            'Blue',
+            'Yellow'
+        ],
+        datasets: [{
+            label: 'My First Dataset',
+            data: [300, 50, 100],
+            backgroundColor: [
+                'rgb(255, 99, 132)',
+                'rgb(54, 162, 235)',
+                'rgb(255, 205, 86)'
+            ],
+            hoverOffset: 4
+        }]
+    };
+
+    const data3 = {
+        labels: [
+            'Red',
+            'Blue',
+            'Yellow'
+        ],
+        datasets: [{
+            label: 'My First Dataset',
+            data: [80, 90, 150],
+            backgroundColor: [
+                'rgb(255, 99, 132)',
+                'rgb(54, 162, 235)',
+                'rgb(255, 205, 86)'
+            ],
+            hoverOffset: 4
+        }]
+    };
+
+    new Chart(ctx1, {
+        type: 'bar',
+        data: data1,
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    new Chart(ctx2, {
+        type: 'doughnut',
+        data: data2
+    });
+
+    new Chart(ctx3, {
+        type: 'doughnut',
+        data: data3
+    });
+</script>

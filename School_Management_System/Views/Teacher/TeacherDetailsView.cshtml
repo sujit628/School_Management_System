@@ -1,0 +1,73 @@
+﻿@model School_Management_System.Models.TeacherDetails
+
+
+@{
+    Layout = "~/Views/Shared/_TeachersLayout.cshtml";
+}
+
+
+@{
+    ViewBag.Title = "TeacherDetailsView";
+}
+
+<h2 class="fw-bold text-center">Teacher <span class="text-primary">Details</span></h2>
+
+<div class="mt-3 container-fluid m-auto w-75 shadow p-3 mb-5 bg-body-tertiary rounded">
+    <div class="text-center mb-3">
+        @{if (@Model.TeacherImage == "undefined")
+            {
+<img src="~/Content/Images/Avater.png" width="120" height="120" class="text-center" />
+<div class="text-muted fst-italic">Image Not Uploaded !!</div>
+}
+else
+{
+<p class="fw-semibold fs-5">Client <span class="text-primary">Image</span> </p>
+
+<img src="~/Content/Images/@Model.TeacherImage" width="120" height="120" style="justify-content:center" class="text-center" />
+
+}
+        }
+    </div>
+
+    <div class="row row-cols-2 mt-3 mb-3">
+        <div class="col-md-6">
+
+            <ul class="list-unstyled fs-5 ps-2">
+
+                <li><span class="fw-semibold">Teacher Name : </span>@Html.DisplayFor(m => m.TeacherName, new { @class = "fw-lighter" }) </li>
+                <li><span class="fw-semibold">Teacher Age : </span> @Html.DisplayFor(m => m.TeacherAge) </li>
+                <li><span class="fw-semibold">County:</span>  @Html.DisplayFor(m => m.Country) </li>
+                <li><span class="fw-semibold">Pin:</span>  @Html.DisplayFor(m => m.Pin) </li>
+                <li><span class="fw-semibold">Mobile No:</span> @Html.DisplayFor(m => m.TeacherContactNo)</li>
+                <li><span class="fw-semibold">Teacher Password :</span> @Html.DisplayFor(m => m.Password)</li>
+
+                <li><span class="fw-semibold">Joining Date:</span> @Html.DisplayFor(m => m.JoiningDate)</li>
+                <li><span class="fw-semibold">Leaving Date:</span> @Html.DisplayFor(m => m.LeavingDate)</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+
+            <ul class="list-unstyled fs-5 ps-2">
+                <li><span class="fw-semibold">Teacher Gender:</span>  @Html.DisplayFor(m => m.TeacherGender) </li>
+                <li><span class="fw-semibold">Teacher Address:</span>  @Html.DisplayFor(m => m.TeacherAddress) </li>
+                <li><span class="fw-semibold">State:</span>  @Html.DisplayFor(m => m.State) </li>
+                <li><span class="fw-semibold">Qualification:</span>  @Html.DisplayFor(m => m.TeacherQualification) </li>
+                <li><span class="fw-semibold">Teacher Email :</span> @Html.DisplayFor(m => m.TeacherEmail)</li>
+                <li><span class="fw-semibold">Teacher's Active' :</span> @Html.DisplayFor(m => m.IsActive)</li>
+                <li><span class="fw-semibold">Inserted Date:</span> @Html.DisplayFor(m => m.EnteredDate)</li>
+                <li><span class="fw-semibold">Updated date:</span> @Html.DisplayFor(m => m.UpdatedDate)</li>
+            </ul>
+        </div>
+
+
+    </div>
+    <div>
+        <p class="btn btn-primary">
+            <a href="@Url.Action("TeachersViewPage","Teacher")" style="text-decoration:none;color:white;">Go Back</a>
+        </p>
+      @*  <p class="btn btn-primary mx-2">
+            <a href="/Home/AddEditTeacherDetails/@Model.TeacherID" onclick="return Editdata()" style="text-decoration:none;color:white;">Update data</a>
+        </p>*@
+    </div>
+</div>
+

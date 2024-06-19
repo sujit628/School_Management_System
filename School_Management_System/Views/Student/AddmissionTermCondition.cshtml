@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "AddmissionTermCondition";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container shadow pt-4 pb-5 mt-2">
+    <h3 class="text-center mt-3">GUIDELINES AND INSTRUCTIONS FOR ADDMISSION OF CLASS X FOR 2024 </h3>
+    <div class="mt-5 text-danger text-center">
+        Last date to Apply Online for Addmission in class X 2024 is 10-Jan-2023 06:00 PM .
+    </div>
+    <hr />
+    <div class="w-75 m-auto">
+        <div class="fw-semibold">PRE-REQUISITE FOR SUBMISSION OF ADDMISSION FORM:</div>
+        <ul>
+            <li>Student must be citizen of India</li>
+            <li>Student must have also well proved documents as he/she is a citizen of India</li>
+            <li>The Student must be passed out IX class from same school or any other school</li>
+            <li>Student must be passed out class IX from WBBSC/CBSC </li>
+            <li>The minimum marks for appling Addmission is<span class="text-danger"> 40%</span> in class IX</li>
+
+        </ul>
+        <div class="fw-semibold mt-3">INSTRUCTIONS AND GUIDELINES TO BE FOLLOWED DURING FILLING ONLINE ADDMISSION FORM:</div>
+        <ul>
+            <li>Atfirst Read the above pre-required details and checked the check box and go for Submit</li>
+            <li>Fill the all input field correctly and carefully</li>
+            <li>The Email Id is your User name ,,So You must to give a valid and active Email Id</li>
+            <li>You have to fill a Strong passwod where total number of character id 8</li>
+            <li>The Photo size of Student must be withing 50kb-300dpi,height:100px and width:100px</li>
+            <li>After filling all the Input fill carefully,,check the form details carefully and with loyalty</li>
+            <li>After checking Go for Addmission Button</li>
+        </ul>
+        <div class="mt-5 fw-semibold">DECLARATION </div>
+        <div class="mb-5">
+            <input type="checkbox" id="diclaration" />
+            I hereby declare that I have gone through all the above instructions carefully and have followed due procedure while filling online Addmission form.
+        </div>
+        <div class="text-center">
+            <a onclick="ProcessToaddmission()" class="btn btn-primary text-center" disabled> Process to Addmission</a>
+            
+        </div>
+    </div>
+</div>
+
+<script>
+    function ProcessToaddmission() {
+        let chek = document.getElementById("diclaration");
+        if (!chek.checked) {
+            alert("Please Read all the Requirement and Guidlines and Select the Declaration before Process to Admission")
+        } else {
+              const email = "@Session["UserName"]";
+            window.location.href = "/Student/studentAdmission?email=" + email;
+        }
+    }
+
+</script>
+

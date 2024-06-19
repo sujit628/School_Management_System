@@ -1,0 +1,161 @@
+﻿@model School_Management_System.Models.student
+
+@{
+    ViewBag.Title = "Student Addmition";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="container m-auto shadow px-5 mt-3 mb-5 bg-body-tertiary rounded">
+        <h2 class="text-center fw-bold mb-3">Student <span style="color: blue;">Admittion</span></h2>
+        @if(Model.Class != "Class 13" ){
+        using (Html.BeginForm("StudentAdmission", "Student", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <div>
+                <h4 class="bg-secondary text-white ps-3">Student Info</h4>
+                <div class="row row-cols-4 my-3 px-3 px-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Name:</label>
+                        @Html.TextBoxFor(m => m.Full_Name, new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Email Id:</label>
+                        @Html.EditorFor(m => m.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+                <div class="row row-cols-4 my-3 px-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Mobile No:</label>
+                        @Html.TextBoxFor(m => m.Phone, new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Address:</label>
+                        @Html.TextAreaFor(m => m.Adrress, new { @class = "form-control", @rows = "1" })
+                    </div>
+                </div>
+                <div class="row row-cols-4 my-3 px-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Gender:</label><br />
+                        Male: @Html.RadioButtonFor(m => m.Gender, "Male", new { @id = "male" })
+                        Female: @Html.RadioButtonFor(m => m.Gender, "Female", new { @id = "female" })
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Class:</label>
+                        @Html.TextBoxFor(m => m.Class, new { @class = "form-control", @required = "required" })
+                    </div>
+                </div>
+                <div class="row row-cols-4 my-3 px-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Date of Birth:</label>
+                        <input type="date" value="@(Model.DOB.Value.ToString("yyyy-MM-dd"))" name="DOB" id="DOB" class="form-control" required />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Aadhar Number:</label>
+                        @Html.TextBoxFor(m => m.Aadhar_NO, new { @class = "form-control PasswordReg" })
+                    </div>
+                </div>
+                <div class="row row-cols-4 my-3 px-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Roll Number:</label>
+                        @Html.TextBoxFor(m => m.RollNo, new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Section:</label>
+                        @Html.TextBoxFor(m => m.Section, new { @class = "form-control PasswordReg" })
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Portion 1 End -->
+
+            <div>
+                <h4 class="bg-secondary text-white ps-3">Additional Information</h4>
+                <div class="row row-cols-4 my-3 px-3 ">
+                    <div class="col-md-6">
+                        <label class="form-label">Mother Name:</label>
+                        @Html.TextBoxFor(m => m.Mother_Name, new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Father Name:</label>
+                        @Html.TextBoxFor(m => m.Father_Name, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="row row-cols-4 my-3 px-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Guardian Name:</label>
+                        @Html.TextBoxFor(m => m.Guardian_Name, new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Relation With Guardian:</label>
+                        @Html.TextBoxFor(m => m.RealationWithGuardian, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="row row-cols-4 my-3 px-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Guardian Phone Number:</label>
+                        @Html.TextBoxFor(m => m.GurdianPhoneNo, new { @class = "form-control" })
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div>
+                <h4 class="bg-secondary text-white ps-3">Address</h4>
+                <div class="row row-cols-4 my-3 px-3">
+                    <div class="col-md-6">
+                        <label class="form-label">State:</label>
+                        @Html.DropDownListFor(m => m.State, new SelectList(new List<string> { "West Bengal", "Bihar", "Sikim", "Asam", "Manipur", "Tripura" }), "Choose State", new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Country:</label>
+                        @Html.TextBoxFor(m => m.Country, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="row row-cols-2 my-3 px-3">
+                    <div class="col-md-6">
+                        <label class="form-label">P.O:</label>
+                        @Html.TextBoxFor(m => m.PO, new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Pin:</label>
+                        @Html.TextBoxFor(m => m.Pin, new { @class = "form-control" })
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div>
+                <h4 class="bg-secondary text-white ps-3">Documents</h4>
+                <div class="row row-cols-4 my-3 px-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Image:</label>
+                        @Html.TextBoxFor(m => m.Image, new { @class = "form-control m-auto", @type = "file", @required = "required" })
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Previous Year MarkSheet Image:</label>
+                        @Html.TextBoxFor(m => m.MarkSheetImage, new { @class = "form-control m-auto", @type = "file", @required = "required" })
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <button type="submit" class="btn btn-outline-primary mt-3 my-2">Process To Admission</button>
+                    </div>
+                </div>
+            </div>
+
+        }
+
+
+
+}
+else
+            {
+                <p class="alert alert-info text-danger"> Already in Maximum Class</p> <br />
+            }
+
+    </div>
+</div>
+

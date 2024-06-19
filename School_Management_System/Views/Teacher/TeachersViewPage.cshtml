@@ -1,0 +1,241 @@
+﻿
+@model IEnumerable<School_Management_System.Models.TeacherDetails>
+
+@{
+    ViewBag.Title = "TeachersViewPage";
+}
+
+@{
+    Layout = "~/Views/Shared/_TeachersLayout.cshtml";
+}
+
+<style>
+    th, td {
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #SearchTeacher {
+        cursor: pointer;
+    }
+</style>
+<h2 class="text-center fw-semibold mb-3 fs-3">Teacher's<span class="text-primary"> Details</span></h2>
+
+<div class="container-fluid shadow p-3 mb-5 bg-body-tertiary rounded">
+
+
+    <div class="row ms-2 me-auto w-25 mb-3">
+        <input class="form-control shadow-sm p-2 rounded" name="SearchTeacher" id="SearchTeacher" onkeyup="Search()" type="search" placeholder="Search Teacher">
+
+    </div>
+    <table id="myTable" class="table table-bordered table-striped table-hover ">
+        <thead class="align-items-center">
+            <tr>
+                <th id="FirstTr" onclick="sortTable(0)">
+                    Teacher Name
+                </th>
+
+                <th id="FirstTr" onclick="sortTable(1)">
+                    Teacher Age
+                </th>
+                <th id="FirstTr" onclick="sortTable(3)">
+                    Teacher Gender
+                </th>
+                <th id="FirstTr" onclick="sortTable(4)">
+                    Teacher Address
+                </th>
+
+                <th id="FirstTr" onclick="sortTable(5)">
+                    Teacher Email
+                </th>
+
+                <th id="FirstTr" onclick="sortTable(6)">
+                    Teacher Qualification
+                </th>
+
+                <th id="FirstTr">Action</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+
+
+<tr class="pointer-event">
+    <td>
+        @item.TeacherName
+
+    </td>
+    <td>
+        @item.TeacherAge
+
+    </td>
+    <td>
+        @item.TeacherGender
+    </td>
+    <td>
+        @item.TeacherAddress
+
+    </td>
+
+    <td>
+        @item.TeacherEmail
+
+    </td>
+    <td>
+        @item.TeacherQualification
+
+    </td>
+
+    <td class="d-flex">
+        <a onclick="SweetaltforEdit(@item.TeacherID,'@item.TeacherName')" onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color: blue; cursor: pointer; text-decoration: none"><i class="bi bi-pencil-square m-2"></i></a>
+        <a onclick="SweetaltforDelete(@item.TeacherID,'@item.TeacherName')" onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color: blue; cursor: pointer; text-decoration: none"><i class="bi bi-trash3-fill"></i></a>
+        <a onclick="SweetaltforView(@item.TeacherID,'@item.TeacherName')" onmouseover="this.style.color='red'" onmouseout="this.style.color='blue'" style="color: blue; cursor: pointer; text-decoration: none"><i class="bi bi-eye-fill m-2"></i></a>
+        @*<div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-primary">Left</button>
+                <button type="button" class="btn btn-primary">Middle</button>
+                <button type="button" class="btn btn-primary">Right</button>
+            </div>*@
+    </td>
+
+
+
+</tr>
+}
+
+        </tbody>
+
+    </table>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    /*Sort Table*/
+    function sortTable(n) {
+        var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+        table = document.getElementById("myTable");
+        switching = true;
+        dir = "asc";
+
+        while (switching) {
+            switching = false;
+            rows = table.rows;
+
+            for (i = 1; i < (rows.length - 1); i++) {
+                console.log(i);
+                shouldSwitch = false;
+                x = rows[i].getElementsByTagName("TD")[n];
+                y = rows[i + 1].getElementsByTagName("TD")[n];
+
+                if (dir == "asc") {
+                    console.log("asc");
+                    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                } else if (dir == "desc") {
+                    console.log("dsc");
+
+                    if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+            }
+            if (shouldSwitch) {
+                console.log("ascSwith");
+                rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                switching = true;
+                switchcount++;
+            } else {
+                if (switchcount == 0 && dir == "asc") {
+                    dir = "desc";
+                    switching = true;
+                }
+            }
+        }
+    }
+
+    /*Sort Table*/
+    //Search by InputField
+
+    function Search() {
+        let SearchTeacher = document.getElementById('SearchTeacher').value.toUpperCase();
+        let myTable = document.getElementById('myTable');
+        let tr = myTable.getElementsByTagName('tr');
+        for (var i = 1; i < tr.length; i++) {
+
+            let td = tr[i].getElementsByTagName('td')[0];
+            if (td) {
+
+                let textvalue = td.textContent || td.innerHTML;
+                if (textvalue.toUpperCase().indexOf(SearchTeacher) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+
+    }
+    //Search by InputField
+    function SweetaltforEdit(id, name) {
+        var Mname = name;
+        var urlId = id;
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "Are You Want to Update Details of " + Mname + " !!",
+            icon: 'warning',
+            showCancelButton: true,
+
+            cancelButtonColor: '#d33',
+            confirmButtonColor: '#3085d6',
+            cancelButtonText: 'No',
+            confirmButtonText: 'Update'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = "/Teacher/AddEditTeacherDetails/" + urlId;
+            }
+        })
+    }
+
+    function SweetaltforDelete(id, name) {
+        var Mname = name;
+        var urlId = id;
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "Are You Want to Delete Details of " + Mname + " !!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Delete',
+            cancelButtonText: 'No'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = "/Teacher/DeleteTeacherDetails/" + urlId;
+            }
+        })
+    }
+    function SweetaltforView(id, name) {
+        var Mname = name;
+        var urlId = id;
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "Are You Want to View Details of " + Mname + " !!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'View',
+            cancelButtonText: 'No'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = "/Teacher/TeacherDetailsView/" + urlId;
+            }
+        })
+    }
+</script>

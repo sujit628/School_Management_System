@@ -1,0 +1,432 @@
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\School_Management_System.dll.config
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\School_Management_System.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\School_Management_System.pdb
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\csc.exe
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\csc.exe.config
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\csc.rsp
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\csi.exe
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\csi.exe.config
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\csi.rsp
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.AppContext.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Console.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.IO.Compression.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Net.Http.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.ValueTuple.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\vbc.exe
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\vbc.exe.config
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\vbc.rsp
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\VBCSCompiler.exe
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Helpers.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Mvc.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Razor.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Webpages.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Webpages.Razor.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Razor.xml
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Webpages.xml
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Webpages.Razor.xml
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Helpers.xml
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Mvc.xml
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.AssemblyReference.cache
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.CoreCompileInputs.cache
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.CopyComplete
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\obj\Debug\School_Management_System.dll
+C:\Users\ARIF PC\Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\obj\Debug\School_Management_System.pdb
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\School_Management_System.dll.config
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\School_Management_System.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\School_Management_System.pdb
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\csc.exe
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\csc.exe.config
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\csc.rsp
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\csi.exe
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\csi.exe.config
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\csi.rsp
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Managed.Core.targets
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.AppContext.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Collections.Immutable.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Console.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Globalization.Calendars.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.IO.Compression.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.IO.FileSystem.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Net.Http.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Net.Sockets.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Reflection.Metadata.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.ValueTuple.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XmlDocument.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XPath.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\vbc.exe
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\vbc.exe.config
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\vbc.rsp
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\VBCSCompiler.exe
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\roslyn\VBCSCompiler.exe.config
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\Microsoft.Web.Infrastructure.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\System.Web.Helpers.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\System.Web.Mvc.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\System.Web.Razor.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\System.Web.Webpages.Deployment.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\System.Web.Webpages.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\System.Web.Webpages.Razor.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\System.Web.Razor.xml
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\System.Web.Webpages.xml
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\System.Web.Webpages.Deployment.xml
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\System.Web.Webpages.Razor.xml
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\System.Web.Helpers.xml
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\System.Web.Mvc.xml
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.AssemblyReference.cache
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.CoreCompileInputs.cache
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.CopyComplete
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\obj\Debug\School_Management_System.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\27_10_2023_SMS\CodeBase\School_Management_System\School_Management_System\obj\Debug\School_Management_System.pdb
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\School_Management_System.dll.config
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\School_Management_System.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\School_Management_System.pdb
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\csc.exe
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\csc.exe.config
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\csc.rsp
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\csi.exe
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\csi.exe.config
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\csi.rsp
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Managed.Core.targets
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.AppContext.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Collections.Immutable.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Console.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Globalization.Calendars.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.IO.Compression.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.IO.FileSystem.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Net.Http.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Net.Sockets.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Reflection.Metadata.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.ValueTuple.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XmlDocument.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XPath.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\vbc.exe
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\vbc.exe.config
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\vbc.rsp
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\VBCSCompiler.exe
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\roslyn\VBCSCompiler.exe.config
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\Microsoft.Web.Infrastructure.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\System.Web.Helpers.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\System.Web.Mvc.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\System.Web.Razor.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\System.Web.Webpages.Deployment.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\System.Web.Webpages.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\System.Web.Webpages.Razor.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\System.Web.Razor.xml
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\System.Web.Webpages.xml
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\System.Web.Webpages.Deployment.xml
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\System.Web.Webpages.Razor.xml
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\System.Web.Helpers.xml
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\System.Web.Mvc.xml
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.AssemblyReference.cache
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.CoreCompileInputs.cache
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.CopyComplete
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\obj\Debug\School_Management_System.dll
+D:\NewPracticeMVC\SMS Part 2 27_10_2023\School_Management_System\School_Management_System\obj\Debug\School_Management_System.pdb
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\School_Management_System.dll.config
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\School_Management_System.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\School_Management_System.pdb
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\csc.exe
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\csc.exe.config
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\csc.rsp
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\csi.exe
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\csi.exe.config
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\csi.rsp
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.AppContext.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Collections.Immutable.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Console.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Globalization.Calendars.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.IO.Compression.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.IO.FileSystem.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Net.Http.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Net.Sockets.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Reflection.Metadata.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.ValueTuple.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XPath.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\vbc.exe
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\vbc.exe.config
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\vbc.rsp
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\VBCSCompiler.exe
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\roslyn\VBCSCompiler.exe.config
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\Microsoft.Web.Infrastructure.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Helpers.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Mvc.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Razor.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Webpages.Deployment.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Webpages.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Webpages.Razor.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Razor.xml
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Webpages.xml
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Webpages.Deployment.xml
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Webpages.Razor.xml
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Helpers.xml
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\System.Web.Mvc.xml
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.AssemblyReference.cache
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.CoreCompileInputs.cache
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.CopyComplete
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\obj\Debug\School_Management_System.dll
+F:\Dell_Backup\Last Desktop\ASP.NET PRACTICE\School_Management_System\School_Management_System\obj\Debug\School_Management_System.pdb
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\School_Management_System.dll.config
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\School_Management_System.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\School_Management_System.pdb
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\csc.exe
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\csc.exe.config
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\csc.rsp
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\csi.exe
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\csi.exe.config
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\csi.rsp
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Managed.Core.targets
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.AppContext.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Collections.Immutable.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Console.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Globalization.Calendars.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.IO.Compression.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.IO.FileSystem.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Net.Http.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Net.Sockets.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Reflection.Metadata.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.ValueTuple.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XmlDocument.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XPath.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\vbc.exe
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\vbc.exe.config
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\vbc.rsp
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\VBCSCompiler.exe
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\VBCSCompiler.exe.config
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\Microsoft.Web.Infrastructure.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Helpers.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Mvc.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Razor.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Webpages.Deployment.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Webpages.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Webpages.Razor.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Razor.xml
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Webpages.xml
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Webpages.Deployment.xml
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Webpages.Razor.xml
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Helpers.xml
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Mvc.xml
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.AssemblyReference.cache
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.CoreCompileInputs.cache
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\obj\Debug\School_M.217A42D4.Up2Date
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\obj\Debug\School_Management_System.dll
+D:\.Net\ASP.Net\School_Management_System\School_Management_System\obj\Debug\School_Management_System.pdb
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\School_Management_System.dll.config
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\School_Management_System.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\School_Management_System.pdb
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\csc.exe
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\csc.exe.config
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\csc.rsp
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\csi.exe
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\csi.exe.config
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\csi.rsp
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Managed.Core.targets
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.AppContext.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Collections.Immutable.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Console.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Globalization.Calendars.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.IO.Compression.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.IO.FileSystem.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Net.Http.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Net.Sockets.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Reflection.Metadata.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.ValueTuple.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XmlDocument.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XPath.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\vbc.exe
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\vbc.exe.config
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\vbc.rsp
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\VBCSCompiler.exe
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\roslyn\VBCSCompiler.exe.config
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\Microsoft.Web.Infrastructure.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Helpers.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Mvc.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Razor.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Webpages.Deployment.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Webpages.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Webpages.Razor.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Razor.xml
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Webpages.xml
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Webpages.Deployment.xml
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Webpages.Razor.xml
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Helpers.xml
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\System.Web.Mvc.xml
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.AssemblyReference.cache
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\obj\Debug\School_Management_System.csproj.CoreCompileInputs.cache
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\obj\Debug\School_M.217A42D4.Up2Date
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\obj\Debug\School_Management_System.dll
+G:\.Net\ASP.Net\School_Management_System\School_Management_System\obj\Debug\School_Management_System.pdb

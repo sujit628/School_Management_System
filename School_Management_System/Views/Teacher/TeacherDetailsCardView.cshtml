@@ -1,0 +1,47 @@
+﻿
+@model IEnumerable<School_Management_System.Models.TeacherDetails>
+
+@{
+    ViewBag.Title = "TeacherDetailsCardView";
+    Layout = "~/Views/Shared/_TeachersLayout.cshtml";
+}
+
+
+<h2 class="text-center fw-semibold ">TeacherDetails <span class="text-primary">Card View</span> </h2>
+
+
+
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+<div class="col-md-6 mt-3">
+    <div class="card shadow d-flex align-items-center icardPDF">
+        <div class="card-body d-flex text-center flex-column align-items-center justify-content-center pt-1 pb-0">
+            <h4>Ram Bhola High School</h4>
+        </div>
+
+        <div class="card-body d-flex">
+            <div class="p-2 mx-3 d-flex flex-column align-items-center">
+                @*                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Unknown_person.jpg/925px-Unknown_person.jpg" class="card-img" alt="Image">
+                *@           <img src="~/Content/Images/@item.TeacherImage" class="card-img" height="120px" width="120px" alt="Image" />
+            </div>
+            <div>
+                <h5 class="card-text">Name: @item.TeacherName</h5>
+                <p class="card-text">Age: @item.TeacherAge</p>
+                <p class="card-text">Gender: @item.TeacherGender</p>
+
+                <p class="card-text">Address: @item.TeacherAddress</p>
+                <p class="card-text">Email Id: @item.TeacherEmail</p>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+}
+    </div>
+</div>
+
+

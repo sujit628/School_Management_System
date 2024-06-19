@@ -1,0 +1,122 @@
+﻿@model IEnumerable<School_Management_System.Models.student>
+
+@{
+    ViewBag.Title = "StudentPageViewIcard";
+    Layout = "~/Views/Shared/_TeachersLayout.cshtml";
+}
+
+<style>
+    .icardPDF {
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 400px;
+        height: 215px;
+        overflow: hidden;
+    }
+
+        .icardPDF .card-img {
+            height: 120px;
+            width: 120px;
+            border-radius: 10px;
+        }
+
+    p {
+        margin: 0px;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        @{ var i = 0;
+            var Total = 0;
+        }
+        @foreach (var item in Model)
+        {<div class="col-md-6 mt-3 @(i++)">
+                <div class="icardPDF" style="">
+                    <div class="" style="text-align: center;margin-bottom:13px;">
+                        <h4 style="">Ram Bhola High School</h4>
+                    </div>
+                    <div style="display: flex; margin-left: 7px; margin-top: 10px; padding:0 0px 10px 40px;">
+                        <div style="display:grid;margin-right:20px;">
+                            <div id="qrcode@(i)" style="text-align: center; margin: auto;"></div>
+
+                            <img src="~/Content/Images/@item.Image" height="80" width="90" alt="Image" style="margin-top:8px; border-radius:100px;">
+                            <img id="barcode@(i)" jsbarcode-value="@item.Email" jsbarcode-height="20" jsbarcode-fontSize="10" jsbarcode-width="1" />
+
+                        </div>
+                        <div style="">
+                            <h5 style="display:none" id="Student_Id@(i)"> @item.S_ID</h5>
+                            <h5 style="display:none" id="QRCodeValue@(i)">Name: @item.Full_Name & Email: @item.Email</h5>
+
+                            <h5 class="">Name: @item.Full_Name</h5>
+                            <p class="">Age: @(((DateTime)@item.DOB).ToString("yyyy-MM-dd"))</p>
+                            <p class="">Class: @item.Class</p>
+                            <p class="">Roll Number: @item.RollNo</p>
+                            <p class="">Address: @item.Adrress</p>
+
+                            <div onclick="generatePDF(this)" style="margin-top:10px;cursor:pointer">
+                                <a class="" style="padding: 3px; color: white; border-radius: 5px; text-decoration: none; background: #0DCAF0;">Generate I.Card</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        }
+        <h5 class="card-text d-none" id="Total_Student">  @(Total = Total + i)</h5>
+
+    </div>
+</div>
+<script src="https://unpkg.com/jsbarcode@latest/dist/JsBarcode.all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
+</script>
+<script>
+
+
+    var Total_Student = document.getElementById("Total_Student").textContent;
+    for (let i = 1; i <= Total_Student; i++) {
+        var element = document.getElementById("barcode" + i);
+        var val = document.getElementById("Student_Id" + i).textContent;
+        var QRCodeValue = document.getElementById("QRCodeValue" + i).textContent;
+
+
+/*        JsBarcode(element).init();
+*/        var qrcode = new QRCode("qrcode" + i, {
+            text: QRCodeValue,
+            width: 40,
+            height: 40,
+            colorDark: "#000000",
+            colorLight: "#ffffff",
+
+        });
+
+    }
+    /*  , val, {
+          height: 20,
+          fontSize: 10,
+
+      }*/
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+    function generatePDF(button) {
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
+
+        const pdfPortion = button.closest(".icardPDF");
+
+        button.style.display = 'none';
+        html2canvas(pdfPortion).then(canvas => {
+            const imgData = canvas.toDataURL('image/png');
+            doc.addImage(imgData, 'PNG', 36, 20, 150, 70);
+            doc.save('PersonDetail.pdf');
+        });
+        button.style.display = 'block';
+    }
+</script>

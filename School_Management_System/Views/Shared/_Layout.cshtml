@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Styles -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <style>
+        .navbar {
+            background: linear-gradient(to right, #007BFF, #00BFFF);
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff;
+        }
+
+            .navbar-brand:hover, .nav-link:hover {
+                color: #F8B400;
+            }
+
+        .navbar-toggler-icon {
+            background-color: #fff;
+        }
+
+        .profile {
+            height: 30px;
+            border-radius: 100px;
+        }
+
+        .MainContent {
+            padding-bottom: 30px;
+        }
+
+        .card_header {
+            background: linear-gradient(to right, #003D7F, #0078BE);
+            color: white;
+            height: 200px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+
+        .card-body {
+            background-color: white;
+            color: black;
+        }
+
+        .card-header {
+            font-weight: bold;
+        }
+
+        .card-title {
+            font-size: 24px;
+        }
+
+        .card-text {
+            font-size: 18px;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        /* Dropdown CSS */
+        #dropdown {
+            text-decoration: none;
+            color: aliceblue;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .linkHover{
+            color:white;
+        }
+        .linkHover:hover {
+            color: #00BFFF;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand mx-lg-0" href="~/Student/StudentPanel">Home</a>
+            <button class="navbar-toggler" style="background-color:white;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#ModalApplication" style="cursor:pointer">Application</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center align-items-center justify-content-center">
+                        <div class="dropdown">
+                            <a class="d-flex justify-content-center align-items-center" id="dropdown">
+                                @Session["UserName"]
+                                <img class="profile px-1" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" />
+                            </a>
+                            <div class="dropdown-content ms-5" style="background-color: transparent;">
+                                <a href="/Home/LogOut" class="btn btn-danger">LogOut</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0 m-0">
+        @RenderBody()
+    </div>
+
+    <footer class="text-center text-lg-start text-white mt-2"
+            style="background-color:#333; ">
+        <section class="d-flex justify-content-between p-4"
+                 style="background: linear-gradient(to right, #007BFF, #00BFFF);">
+            <div class="me-5">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <div>
+                <a href="" class="text-decoration-none mx-2" style="color:white"> <i class="bi bi-facebook"></i></a>
+                <a href="" class="text-decoration-none mx-2" style="color:white">  <i class="bi bi-discord"></i></a>
+                <a href="" class="text-decoration-none mx-2" style="color:white">  <i class="bi bi-skype"></i></a>
+                <a href="" class="text-decoration-none mx-2" style="color:white"> <i class="bi bi-whatsapp"></i></a>
+
+
+
+            </div>
+           
+        </section>
+    
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+              
+                <div class="row mt-3">
+                  
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                     
+                        <h6 class="text-uppercase fw-bold">Rambhola High School</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 220px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            8CMV+CFJ, Cooch Behar, West Bengal 736101
+                        </p>
+                    </div>
+                   
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                      
+                        <h6 class="text-uppercase fw-bold">Quick Links</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 110px; background-color: #7c4dff; height: 2px" />
+                        <p class="d-flex flex-column">
+                            <a href="#!" class="linkHover text-decoration-none">New Admission</a>
+                            <a href="#!" class="linkHover text-decoration-none">Events</a>
+                            <a href="#!" class="linkHover text-decoration-none">Holidays</a>
+                        </p>
+                       
+                    </div>
+                  
+                 
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    
+                        <h6 class="text-uppercase fw-bold">Other</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            <a href="#!" class="linkHover text-decoration-none">Addition Information</a>
+                        </p>
+                       
+                    </div>
+                  
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                      
+                        <h6 class="text-uppercase fw-bold">Contact</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 90px; background-color: #7c4dff; height: 4px" />
+                        <p><i class="fas fa-home mr-3"></i> CoochBehar</p>
+                        <p><i class="fas fa-envelope mr-3"></i> Rambhola@gmail.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> + 91 1234567890</p>
+                    </div>
+                  
+                </div>
+              
+            </div>
+        </section>
+       
+        <div class="text-center p-3"
+             style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2023 Copyright:
+            <a href="#!" class="linkHover text-decoration-none">Ram Bhola High School</a>
+        </div>
+       
+    </footer>
+
+
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script>
+        const dropdownButton = document.querySelector("#dropdown");
+        const dropdownContent = document.querySelector(".dropdown-content");
+
+        dropdownButton.addEventListener("click", function () {
+            dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
+        });
+
+    </script>
+</body>
+</html>

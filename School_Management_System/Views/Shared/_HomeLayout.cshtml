@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+
+    <!-- Styles -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <style>
+        .navbar {
+            background: linear-gradient(to right, #007BFF, #00BFFF);
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff;
+        }
+
+            .navbar-brand:hover, .nav-link:hover {
+                color: #F8B400;
+            }
+
+        .navbar-toggler-icon {
+            background-color: #fff;
+        }
+
+        .profile {
+            height: 30px;
+            border-radius: 100px;
+        }
+
+        .MainContent {
+            padding-bottom: 30px;
+        }
+
+        .card_header {
+            background: linear-gradient(to right, #003D7F, #0078BE);
+            color: white;
+            height: 200px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0;
+        }
+
+        .card-body {
+            background-color: white;
+            color: black;
+        }
+
+        .card-header {
+            font-weight: bold;
+        }
+
+        .card-title {
+            font-size: 24px;
+        }
+
+        .card-text {
+            font-size: 18px;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        /* Dropdown CSS */
+        #dropdown {
+            text-decoration: none;
+            color: aliceblue;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand mx-lg-0" href="~/Home/Index">Home</a>
+          
+        </div>
+    </nav>
+
+    @RenderBody()
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; @DateTime.Now.Year Rambhola High School</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

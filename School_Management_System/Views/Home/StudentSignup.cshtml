@@ -1,0 +1,46 @@
+﻿@model School_Management_System.Models.student
+@{
+    ViewBag.Title = "Singup";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+@if (TempData["SingupMsg"] != null)
+{
+    <script>alert("Email Already Exist")</script>
+}
+
+<style>
+    body {
+        background: linear-gradient(135deg, #007BFF, #00C1E3);
+    }
+</style>
+
+<div class="container d-flex justify-content-center align-items-center mt-4">
+    <div class="container px-5 d-flex align-items-center justify-content-center border rounded-5 shadow " style="height: 80vh;background-color:aliceblue; width:35vw;">
+        @using (Html.BeginForm())
+        {
+            <h3 class="text-center text-primary fst-italic">SingUp</h3>
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <label class="form-label">Full Name:</label>
+                    @Html.EditorFor(x => x.Full_Name, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+                <div class="col-12  mb-3">
+                    <label class="form-label">Email Id:</label>
+                    @Html.EditorFor(x => x.Email, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+                <div class="col-12  mb-3">
+                    <label class="form-label">Contact No.:</label>
+                    @Html.EditorFor(x => x.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+                <div class="col-12  mb-3">
+                    <label class="form-label">Password:</label>
+                    @Html.EditorFor(x => x.Password, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="row mt-2 px-2">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        }
+    </div>
+</div>
